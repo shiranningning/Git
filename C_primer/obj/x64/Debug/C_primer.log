@@ -1,0 +1,15 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.1.105”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  test.cpp
+E:\vs2019\project\C_primer\test.cpp(23,10): warning : statement has no effect [-Wunused-value]
+E:\vs2019\project\C_primer\test.cpp(23,10): warning :   for (it1; it1 != vec1.end(); it1++)
+E:\vs2019\project\C_primer\test.cpp(23,10): warning :           ^
+E:\vs2019\project\C_primer\test.cpp(28,10): warning : statement has no effect [-Wunused-value]
+E:\vs2019\project\C_primer\test.cpp(28,10): warning :   for (it2; it2 != vec3.end(); it2++)
+E:\vs2019\project\C_primer\test.cpp(28,10): warning :           ^
+  正在链接对象
+  C_primer.vcxproj -> E:\vs2019\project\C_primer\bin\x64\Debug\C_primer.out

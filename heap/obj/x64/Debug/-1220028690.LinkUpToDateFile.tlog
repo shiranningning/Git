@@ -1,0 +1,1 @@
+g++ -o "/home/ningwang/projects/heap/bin/x64/Debug/heap.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ningwang/projects/heap/obj/x64/Debug/heap.o /home/ningwang/projects/heap/obj/x64/Debug/main.o

@@ -1,0 +1,71 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.1.105”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  romanToInt.cpp
+E:\vs2019\project\Leetcode\romanToInt.cpp(113,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(113,27): warning :          for (int i = 0; i < size; i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(113,27): warning :                          ~~^~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(146,14): warning : unused variable ‘tmp’ [-Wunused-variable]
+E:\vs2019\project\Leetcode\romanToInt.cpp(146,14): warning :          char tmp;
+E:\vs2019\project\Leetcode\romanToInt.cpp(146,14): warning :               ^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(248,28): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(248,28): warning :          int res = nums.size();
+E:\vs2019\project\Leetcode\romanToInt.cpp(248,28): warning :                    ~~~~~~~~~^~
+E:\vs2019\project\Leetcode\romanToInt.cpp(255,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(255,27): warning :          for (int i = 1; i < nums.size(); i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(255,27): warning :                          ~~^~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(305,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(305,27): warning :          for (int i = 0; i < haystack.size(); i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(305,27): warning :                          ~~^~~~~~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(321,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(321,27): warning :          for (int i = 0; i < nums.size(); i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(321,27): warning :                          ~~^~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(337,18): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(337,18): warning :          for (; i < nums.size(); i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(337,18): warning :                 ~~^~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(341,30): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(341,30): warning :              } else if (i + 1 < nums.size() && nums[i + 1] > target) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(341,30): warning :                         ~~~~~~^~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(347,15): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(347,15): warning :          if (i == nums.size()) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(347,15): warning :              ~~^~~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(348,30): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(348,30): warning :              index = nums.size();
+E:\vs2019\project\Leetcode\romanToInt.cpp(348,30): warning :                      ~~~~~~~~~^~
+E:\vs2019\project\Leetcode\romanToInt.cpp(364,31): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(364,31): warning :              for (int j = 0; j < res_tmp.size() + 1; j++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(364,31): warning :                              ~~^~~~~~~~~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(368,33): warning : conversion to ‘char’ from ‘int’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(368,33): warning :                      res += ('0' + count);
+E:\vs2019\project\Leetcode\romanToInt.cpp(368,33): warning :                             ~~~~~^~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(370,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(370,27): warning :                      if (j == res_tmp.size()) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(370,27): warning :                          ~~^~~~~~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(400,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\project\Leetcode\romanToInt.cpp(400,27): warning :          for (int i = 1; i < nums.size(); i++) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(400,27): warning :                          ~~^~~~~~~~~~~~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(434,30): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(434,30): warning :          int index = s.size() - 1;
+E:\vs2019\project\Leetcode\romanToInt.cpp(434,30): warning :                      ~~~~~~~~~^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(435,31): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(435,31): warning :          int real_size = s.size();
+E:\vs2019\project\Leetcode\romanToInt.cpp(435,31): warning :                          ~~~~~~^~
+E:\vs2019\project\Leetcode\romanToInt.cpp(472,32): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(472,32): warning :          for (i = digits.size() - 1; i >= 0; i--) {
+E:\vs2019\project\Leetcode\romanToInt.cpp(472,32): warning :                   ~~~~~~~~~~~~~~^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,26): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,26): warning :          int i = a.size() - 1, j = b.size() - 1, k = len - 1;
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,26): warning :                  ~~~~~~~~~^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,44): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,44): warning :          int i = a.size() - 1, j = b.size() - 1, k = len - 1;
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,44): warning :                                    ~~~~~~~~~^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,57): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,57): warning :          int i = a.size() - 1, j = b.size() - 1, k = len - 1;
+E:\vs2019\project\Leetcode\romanToInt.cpp(500,57): warning :                                                      ~~~~^~~
+E:\vs2019\project\Leetcode\romanToInt.cpp(532,28): warning : value computed is not used [-Wunused-value]
+E:\vs2019\project\Leetcode\romanToInt.cpp(532,28): warning :                      res[k] == '1';
+  正在链接对象
+  Leetcode.vcxproj -> E:\vs2019\project\Leetcode\bin\x64\Debug\Leetcode.out

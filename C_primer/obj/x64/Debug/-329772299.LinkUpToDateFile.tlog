@@ -1,0 +1,1 @@
+g++ -o "/home/ningwang/projects/C_primer/bin/x64/Debug/C_primer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ningwang/projects/C_primer/obj/x64/Debug/test.o

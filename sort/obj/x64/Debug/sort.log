@@ -1,0 +1,54 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.1.120”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  sort.cpp
+E:\vs2019\Git\sort\sort.cpp(15,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(15,23): warning :      for (int i = 0; i < elements.size(); i++) {
+E:\vs2019\Git\sort\sort.cpp(15,23): warning :                      ~~^~~~~~~~~~~~~~~~~
+E:\vs2019\Git\sort\sort.cpp(30,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(30,23): warning :      for (int i = 0; i < size; i++) {
+E:\vs2019\Git\sort\sort.cpp(30,23): warning :                      ~~^~~~~~
+E:\vs2019\Git\sort\sort.cpp(31,27): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(31,27): warning :          for (int j = 0; j < size - i - 1; j++) {
+E:\vs2019\Git\sort\sort.cpp(31,27): warning :                          ~~^~~~~~~~~~~~~~
+E:\vs2019\Git\sort\sort.cpp(51,19): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(51,19): warning :      for (i = 0; i < size; i++) {
+E:\vs2019\Git\sort\sort.cpp(51,19): warning :                  ~~^~~~~~
+E:\vs2019\Git\sort\sort.cpp(52,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(52,23): warning :          for (j = 0; j < size - i; j++) {
+E:\vs2019\Git\sort\sort.cpp(52,23): warning :                      ~~^~~~~~~~~~
+E:\vs2019\Git\sort\sort.cpp(74,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(74,23): warning :      for (int i = 0; i < size - 1; i++) {
+E:\vs2019\Git\sort\sort.cpp(74,23): warning :                      ~~^~~~~~~~~~
+E:\vs2019\Git\sort\sort.cpp(93,29): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\Git\sort\sort.cpp(93,29): warning :      int size = elements.size();
+E:\vs2019\Git\sort\sort.cpp(93,29): warning :                 ~~~~~~~~~~~~~^~
+E:\vs2019\Git\sort\sort.cpp(134,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\sort\sort.cpp(134,23): warning :      for (int l = 0; l < tmp.size(); l++) {
+E:\vs2019\Git\sort\sort.cpp(134,23): warning :                      ~~^~~~~~~~~~~~
+E:\vs2019\Git\sort\sort.cpp(117,31): warning : unused variable ‘k’ [-Wunused-variable]
+E:\vs2019\Git\sort\sort.cpp(117,31): warning :      int i = low, j = mid + 1, k = 0;
+E:\vs2019\Git\sort\sort.cpp(117,31): warning :                                ^
+E:\vs2019\Git\sort\sort.cpp(154,46): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\Git\sort\sort.cpp(154,46): warning :      _merge_sort(elements, 0, elements.size() - 1);
+E:\vs2019\Git\sort\sort.cpp(154,46): warning :                               ~~~~~~~~~~~~~~~~^~~
+E:\vs2019\Git\sort\sort.cpp(192,46): warning : conversion to ‘int’ from ‘std::vector<int>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\vs2019\Git\sort\sort.cpp(192,46): warning :      _quick_sort(elements, 0, elements.size() - 1);
+E:\vs2019\Git\sort\sort.cpp(192,46): warning :                               ~~~~~~~~~~~~~~~~^~~
+E:\vs2019\Git\sort\sort.cpp(199,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\vs2019\Git\sort\sort.cpp(199,1): warning :  }
+E:\vs2019\Git\sort\sort.cpp(199,1): warning :  ^
+E:\vs2019\Git\sort\sort.cpp(203,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\vs2019\Git\sort\sort.cpp(203,1): warning :  }
+E:\vs2019\Git\sort\sort.cpp(203,1): warning :  ^
+E:\vs2019\Git\sort\sort.cpp(207,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\vs2019\Git\sort\sort.cpp(207,1): warning :  }
+E:\vs2019\Git\sort\sort.cpp(207,1): warning :  ^
+E:\vs2019\Git\sort\sort.cpp(211,1): warning : no return statement in function returning non-void [-Wreturn-type]
+E:\vs2019\Git\sort\sort.cpp(211,1): warning :  }
+E:\vs2019\Git\sort\sort.cpp(211,1): warning :  ^
+  正在链接对象
+  sort.vcxproj -> E:\vs2019\Git\sort\bin\x64\Debug\sort.out

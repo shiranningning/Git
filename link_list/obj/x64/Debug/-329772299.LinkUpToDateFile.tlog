@@ -1,0 +1,1 @@
+g++ -o "/home/ningwang/projects/link_list/bin/x64/Debug/link_list.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ningwang/projects/link_list/obj/x64/Debug/list_list.o /home/ningwang/projects/link_list/obj/x64/Debug/main.o

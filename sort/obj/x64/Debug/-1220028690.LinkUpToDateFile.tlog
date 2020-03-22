@@ -1,0 +1,1 @@
+g++ -o "/home/ningwang/projects/sort/bin/x64/Debug/sort.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/ningwang/projects/sort/obj/x64/Debug/main.o /home/ningwang/projects/sort/obj/x64/Debug/sort.o

@@ -1,0 +1,12 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.1.105”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+E:\vs2019\project\Project1\main.cpp(11,13): warning : unused variable ‘curErr’ [-Wunused-variable]
+E:\vs2019\project\Project1\main.cpp(11,13): warning :   int* const curErr = &errNumb;
+E:\vs2019\project\Project1\main.cpp(11,13): warning :              ^~~~~~
+  正在链接对象
+  Project1.vcxproj -> E:\vs2019\project\Project1\bin\x64\Debug\Project1.out

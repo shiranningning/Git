@@ -1,0 +1,16 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.1.120”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  heap.cpp
+  main.cpp
+E:\vs2019\Git\heap\main.cpp(17,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\heap\main.cpp(17,23): warning :      for (int i = 0; i < sizeof(data) / sizeof(int); i++) {
+E:\vs2019\Git\heap\main.cpp(17,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~~~~~~
+E:\vs2019\Git\heap\main.cpp(22,23): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\vs2019\Git\heap\main.cpp(22,23): warning :      for (int i = 0; i < sizeof(data) / sizeof(int); i++) {
+E:\vs2019\Git\heap\main.cpp(22,23): warning :                      ~~^~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  heap.vcxproj -> E:\vs2019\Git\heap\bin\x64\Debug\heap.out
